@@ -1,4 +1,8 @@
+#flask is used
+from flask import Flask, request, jsonify
+from twilio.twiml.messaging_response import MessagingResponse
 
+app = Flask(_name_)
 
 #Sample data for available tickets
 available_tickets = {
